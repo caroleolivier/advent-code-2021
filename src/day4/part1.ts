@@ -89,7 +89,6 @@ function processTirage(boards: BoardType[], tirage: number[]): { board: Board, l
               board: board.board,
               lastTirage: tirageItem
             }
-            break;
           }
           if (board.status.columns[columnIndex] === 5) {
             console.log('BINGO COLUMN');
@@ -97,7 +96,6 @@ function processTirage(boards: BoardType[], tirage: number[]): { board: Board, l
               board: board.board,
               lastTirage: tirageItem
             }
-            break;
           }
         }
       }
